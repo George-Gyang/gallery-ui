@@ -1,6 +1,5 @@
 body {
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: Montserrat, sans-serif !important;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -58,10 +57,10 @@ customize-font {
 }
 
 ul .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 0.78rem;
-  line-height: 1rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .center-img {
@@ -78,6 +77,12 @@ ul .nav-link {
   left: 2rem;
   /* /* background-color: black; */
   color: white;
+}
+
+.to-front h2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .overwrite {
   position: relative;
@@ -233,10 +238,10 @@ ul .nav-link {
 }
 
 .sign-h4 {
-  font-family: Arial, Helvetica;
+  /* font-family: Arial, Helvetica; */
   font-size: 0.875rem;
   line-height: 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #tns2-ow {
@@ -269,7 +274,8 @@ ul .nav-link {
 }
 
 .dept-head-6 {
-  color: #333333;
+  color: rgb(37, 43, 66);
+  /* color: #333333; */
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25rem;
@@ -332,7 +338,7 @@ ul .nav-link {
 }
 
 .bold-type {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: 700 !important;
   font-size: 1.5rem !important;
   line-height: 2rem !important;
@@ -609,17 +615,26 @@ ul .nav-link {
 
 footer {
   background-color: #ebf5fa;
+  font-size: 14px;  
+  line-height: 20px;
+  color: #000000;
+  font-weight: 400; 
+}
+
+.text-reset {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 /* #search-input{
   border: 0 !important;
 } */
 
-.fw-bold {
+/* .fw-bold {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700 !important;
   color: black !important;
-}
+} */
 
 .fw-bold + span {
   font-size: 0.8rem;
