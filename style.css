@@ -3,6 +3,13 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+
+.body {
+  line-height: normal;
+  font-size: 1rem;
+  color: #000000;
+}
+
 .alert {
   padding: 0.8rem 0px;
 }
@@ -205,6 +212,23 @@ ul .nav-link {
 
 /* ENDS */
 
+#contact-form input{
+  border: 1px solid #00659D;
+  background-color: #FAFAFA
+  ;
+}
+
+#contact-form textarea{
+  border: 1px solid #00659D;
+  background-color: #FAFAFA
+  ;
+}
+
+
+#contact-form label{
+  color: #000000;
+}
+
 /* TINY-SLIDER CUSTOMIZATION */
 
 .px-16 {
@@ -335,6 +359,10 @@ ul .nav-link {
 
 .adjust .container {
   max-width: 1250px;
+}
+
+.ash-text {
+  color: #7a7a7a;
 }
 
 .bold-type {
@@ -481,6 +509,17 @@ ul .nav-link {
 }
 
 /* BATHING STOCK PAGE */
+.dark-brownish{
+  background-color: #AD884D;
+}
+.brown-btn:hover{
+  background-color: #AD884D;
+  opacity: 0.8;
+}
+
+.color-brownish{
+  color: #AD884D;
+}
 
 .dark-black {
   color: #000000;
@@ -583,26 +622,10 @@ ul .nav-link {
 
 .post {
   color: #000000;
-  font-size: 1.8rem;
+  /* font-size: 1.8rem;
   line-height: 2.2rem;
   padding: 0 2.5rem;
-  margin-bottom: 6rem;
-}
-
-.head-post {
-  font-weight: bold;
-  /* font-size: 1.4em; */
-  font-weight: bold;
-  color: #000000;
-}
-
-.author-content h6 {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-.author-content h2 {
-  font-size: 2.1rem;
-  font-weight: 600;
+  margin-bottom: 6rem; */
 }
 
 .more-post {
@@ -615,10 +638,10 @@ ul .nav-link {
 
 footer {
   background-color: #ebf5fa;
-  font-size: 14px;  
+  font-size: 14px;
   line-height: 20px;
   color: #000000;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 .text-reset {

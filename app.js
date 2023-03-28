@@ -10,12 +10,13 @@ var mySlider = tns({
     autoplayPosition: "autoplay",
     controlsPosition: "bottom",
     navPosition: "bottom",
+    // autoWidth: true,
     controls: false,
     autoplayText:[ "▶","❚❚"],
     responsive: {
         700: {
             // edgePadding: 2,
-            gutter: 10,
+            gutter: 20,
             items: 8
         }
     }
