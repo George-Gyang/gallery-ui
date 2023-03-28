@@ -521,6 +521,22 @@ ul .nav-link {
   color: #AD884D;
 }
 
+.skewed-text{
+  background-color: #E1E1E1;
+  padding: .5rem 4.5rem;
+  transform: skew(50deg, 0deg);
+  margin-left: 1.2rem;
+  color: white;
+}
+
+.skewed-opposite{
+  background-color: #E1E1E1;
+  padding: .5rem 4.5rem;
+  transform: skew(-50deg, 0deg);
+  margin-left: 1.2rem;
+  color: white;
+}
+
 .dark-black {
   color: #000000;
   font-weight: bolder;
