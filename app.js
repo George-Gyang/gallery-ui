@@ -1,26 +1,26 @@
-var mySlider = tns({
-    container: '.my-slider',
-    items: 2,
-    edgePadding: 10,
-    gutter: 20,
-    autoplayTimeout:4000,
-    slideBy: 2,
-    autoplay: true,
-    autoplayButtonOutput : false,
-    autoplayPosition: "autoplay",
-    controlsPosition: "bottom",
-    navPosition: "bottom",
-    // autoWidth: true,
-    controls: false,
-    autoplayText:[ "▶","❚❚"],
-    responsive: {
-        700: {
-            // edgePadding: 2,
-            gutter: 20,
-            items: 8
-        }
-    }
-});
+// var mySlider = tns({
+//     container: '.my-slider',
+//     items: 2,
+//     edgePadding: 10,
+//     gutter: 20,
+//     autoplayTimeout:4000,
+//     slideBy: 2,
+//     autoplay: true,
+//     autoplayButtonOutput : false,
+//     autoplayPosition: "autoplay",
+//     controlsPosition: "bottom",
+//     navPosition: "bottom",
+//     // autoWidth: true,
+//     controls: false,
+//     autoplayText:[ "▶","❚❚"],
+//     responsive: {
+//         700: {
+//             // edgePadding: 2,
+//             gutter: 20,
+//             items: 8
+//         }
+//     }
+// });
 
 var mainslider = tns({
     container: '.main-slider',
@@ -54,7 +54,7 @@ var myLogo = tns({
 });
 
 var sliderTwo = tns({
-    container: '.my-slider-2',
+    container: '.my-slider',
     items: 2,
     // edgePadding: 10,
     gutter: 40,
